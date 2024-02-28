@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A4AED6A-AB55-4362-ABFC-3B6D77418CC1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>VOYAGER</RootNamespace>
+    <AssemblyName>VOYAGER</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>voyager_logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.2.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.25.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.25.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.5\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.5\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.3.0\lib\net48\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZstdSharp, Version=0.7.1.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.7.1\lib\net461\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_panel.Designer.cs">
+      <DependentUpon>Admin_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Affiliates_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Affiliates_Panel.Designer.cs">
+      <DependentUpon>Affiliates_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking_Order_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking_Order_Panel.Designer.cs">
+      <DependentUpon>Booking_Order_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Broker_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Broker_Panel.Designer.cs">
+      <DependentUpon>Broker_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Panel.Designer.cs">
+      <DependentUpon>Login_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager_Panel.Designer.cs">
+      <DependentUpon>Manager_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print_Preview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print_Preview.Designer.cs">
+      <DependentUpon>Print_Preview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reception_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reception_Panel.Designer.cs">
+      <DependentUpon>Reception_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoundPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Search_Gridview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_Gridview.Designer.cs">
+      <DependentUpon>Search_Gridview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConnectionClass.cs" />
+    <Compile Include="Staff_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff_Panel.Designer.cs">
+      <DependentUpon>Staff_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tourist.cs" />
+    <Compile Include="UC_Admin_AllHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_AllHistory.Designer.cs">
+      <DependentUpon>UC_Admin_AllHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Admin_AllHistory_Next.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_AllHistory_Next.Designer.cs">
+      <DependentUpon>UC_Admin_AllHistory_Next.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Admin_Client.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_Client.Designer.cs">
+      <DependentUpon>UC_Admin_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Admin_Destination.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_Destination.Designer.cs">
+      <DependentUpon>UC_Admin_Destination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Admin_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_Home.Designer.cs">
+      <DependentUpon>UC_Admin_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Admin_Hotel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_Hotel.Designer.cs">
+      <DependentUpon>UC_Admin_Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Admin_Staff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_Staff.Designer.cs">
+      <DependentUpon>UC_Admin_Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Admin_Tour.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_Tour.Designer.cs">
+      <DependentUpon>UC_Admin_Tour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Admin_Transport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Admin_Transport.Designer.cs">
+      <DependentUpon>UC_Admin_Transport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Destination_Beaches.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Destination_Beaches.Designer.cs">
+      <DependentUpon>UC_Destination_Beaches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Destination_Forest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Destination_Forest.Designer.cs">
+      <DependentUpon>UC_Destination_Forest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Destination_HillStation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Destination_HillStation.Designer.cs">
+      <DependentUpon>UC_Destination_HillStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Destination_Historical.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Destination_Historical.Designer.cs">
+      <DependentUpon>UC_Destination_Historical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Destination_Lakes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Destination_Lakes.Designer.cs">
+      <DependentUpon>UC_Destination_Lakes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Destination_Monuments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Destination_Monuments.Designer.cs">
+      <DependentUpon>UC_Destination_Monuments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Destination_Type.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Destination_Type.Designer.cs">
+      <DependentUpon>UC_Destination_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Hotel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Hotel.Designer.cs">
+      <DependentUpon>UC_Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Message.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Message.designer.cs">
+      <DependentUpon>UC_Message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Payment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Payment.Designer.cs">
+      <DependentUpon>UC_Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Receptionist_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Receptionist_Home.Designer.cs">
+      <DependentUpon>UC_Receptionist_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Transport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Transport.Designer.cs">
+      <DependentUpon>UC_Transport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <EmbeddedResource Include="Admin_panel.resx">
+      <DependentUpon>Admin_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Affiliates_Panel.resx">
+      <DependentUpon>Affiliates_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking_Order_Panel.resx">
+      <DependentUpon>Booking_Order_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Broker_Panel.resx">
+      <DependentUpon>Broker_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Panel.resx">
+      <DependentUpon>Login_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager_Panel.resx">
+      <DependentUpon>Manager_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print_Preview.resx">
+      <DependentUpon>Print_Preview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reception_Panel.resx">
+      <DependentUpon>Reception_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_Gridview.resx">
+      <DependentUpon>Search_Gridview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff_Panel.resx">
+      <DependentUpon>Staff_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_AllHistory.resx">
+      <DependentUpon>UC_Admin_AllHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_AllHistory_Next.resx">
+      <DependentUpon>UC_Admin_AllHistory_Next.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_Client.resx">
+      <DependentUpon>UC_Admin_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_Destination.resx">
+      <DependentUpon>UC_Admin_Destination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_Home.resx">
+      <DependentUpon>UC_Admin_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_Hotel.resx">
+      <DependentUpon>UC_Admin_Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_Staff.resx">
+      <DependentUpon>UC_Admin_Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_Tour.resx">
+      <DependentUpon>UC_Admin_Tour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Admin_Transport.resx">
+      <DependentUpon>UC_Admin_Transport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Destination_Beaches.resx">
+      <DependentUpon>UC_Destination_Beaches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Destination_Forest.resx">
+      <DependentUpon>UC_Destination_Forest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Destination_HillStation.resx">
+      <DependentUpon>UC_Destination_HillStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Destination_Historical.resx">
+      <DependentUpon>UC_Destination_Historical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Destination_Lakes.resx">
+      <DependentUpon>UC_Destination_Lakes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Destination_Monuments.resx">
+      <DependentUpon>UC_Destination_Monuments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Destination_Type.resx">
+      <DependentUpon>UC_Destination_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Hotel.resx">
+      <DependentUpon>UC_Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Message.resx">
+      <DependentUpon>UC_Message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Payment.resx">
+      <DependentUpon>UC_Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Receptionist_Home.resx">
+      <DependentUpon>UC_Receptionist_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Transport.resx">
+      <DependentUpon>UC_Transport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="voyager_logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
