@@ -1,7 +1,0 @@
-mail : nogomay101@ebuthor.com
-pass : 0tempPass@
-server : sql6.freemysqlhosting.net
-Name: sql6686661
-Username: sql6686661
-Password: uZlIiDl1bZ
-Port number: 3306

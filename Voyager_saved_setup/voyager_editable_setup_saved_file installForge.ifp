@@ -1,0 +1,281 @@
+﻿
+[Header]
+ProjectFileVersion = 1.1
+[General]
+Program name = Voyager
+Program version = 1.1.0
+Windows XP = 0
+Windows Server 2003 = 1
+Windows Vista = 1
+Windows Server 2008 = 1
+Windows 7 = 1
+Windows 8 = 1
+Windows 10 = 1
+Windows Server 2016 = 1
+Windows Server 2019 = 1
+Windows Server 2022 = 1
+Windows 11 = 1
+DoNotCheckOS = 1
+Company name = 
+Website = https://
+SFA = 1
+DFA = 1
+Comp = 1
+[Graphics]
+Wizard image = <main>
+Header image = C:\Users\User\Desktop\VOYAGER\VOYAGER\Resources\voyager_logo2.png
+Show Label = 1
+VisualStylesEnabled = 1
+[Files]
+Installation path = <ProgramFiles>\<Company>\<AppName>\
+Autcip = 1
+[Uninstall]
+Vwau = 0
+Website = https://
+Include uninstaller = 1
+Uninstaller filename = Uninstall Voyager
+UseCustomDisplayIcon = 0
+CustomDisplayIcon = <InstallPath>\
+[Licence]
+Licence dialog = 1
+[Finish]
+Sart program = 1
+Reboot computer = 0
+Program = <InstallPath>\VOYAGER.exe
+ProgramArguments = 
+[Shortcuts]
+Allowtc = 1
+Shortcut path = <Company>\<AppName>\
+[Serialoptions]
+Allows = 0
+Number = 5
+Mask = #####-#####-#####-#####
+[SplashScreen]
+Image = 
+Sound = 
+Time = 2
+PlaySound = 0
+Allow = 0
+[Build]
+File = C:\Users\User\Desktop\Voyager_setup\Voyager v1.1.0 setup.exe
+SetupIconPath = C:\Users\User\Desktop\VOYAGER\VOYAGER\Resources\voyager_logo.ico
+UninstallIconPath = E:\Yaarian\Download_Software_Installation_Folder\install_forge\solicus\InstallForge\icons\ancient.ico
+CompressionMethod = 0
+CompressionLevel = 2
+[Updater]
+Allow = 0
+1 = <AppName>
+2 = <AppVersion>
+3 = http://
+4 = http://
+5 = http://
+6 = Update
+Language = 0
+RunProg = 
+RunProgs = 0
+Execdlls = 0
+[Languages]
+1
+2
+3
+4
+5
+6
+8
+9
+12
+14
+20
+[Files/Dirs]
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\BouncyCastle.Cryptography.dll
+6.6 MB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\BouncyCastle.Cryptography.xml
+1.7 MB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\Google.Protobuf.dll
+461.8 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\Google.Protobuf.pdb
+175.4 KB
+pdb
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\Google.Protobuf.xml
+596.4 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\K4os.Compression.LZ4.dll
+65.5 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\K4os.Compression.LZ4.Streams.dll
+72.5 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\K4os.Compression.LZ4.Streams.xml
+101.5 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\K4os.Compression.LZ4.xml
+73.9 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\K4os.Hash.xxHash.dll
+13 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\K4os.Hash.xxHash.xml
+12.2 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+20.4 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+17.8 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\MySql.Data.dll
+1.1 MB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\MySql.Data.xml
+980.2 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Buffers.dll
+20.4 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Buffers.xml
+3.4 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Configuration.ConfigurationManager.dll
+89.8 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+169.2 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+140.3 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.IO.Pipelines.dll
+70.9 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.IO.Pipelines.xml
+33.5 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Memory.dll
+138.9 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Memory.xml
+13.6 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Numerics.Vectors.dll
+113.1 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Numerics.Vectors.xml
+179.2 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+17.6 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+20 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Threading.Tasks.Extensions.dll
+25.4 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\System.Threading.Tasks.Extensions.xml
+9.9 KB
+xml
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\VOYAGER.exe
+14 MB
+exe
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\VOYAGER.exe.config
+1.8 KB
+config
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\VOYAGER.pdb
+333.5 KB
+pdb
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\Voyager_DataBase.mdf
+19 MB
+mdf
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\Voyager_DataBase_log.ldf
+2 MB
+ldf
+C:\Users\User\Desktop\VOYAGER\VOYAGER\bin\Debug\ZstdSharp.dll
+427 KB
+dll
+C:\Users\User\Desktop\VOYAGER\VOYAGER\Resources\
+N/A
+[Folder]
+[Licence_Begin]
+11960
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset1 Segoe UI Symbol;}{\f1\fswiss\fcharset0 Calibri;}{\f2\fnil\fcharset0 Arial;}{\f3\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\cf0\f0\fs20\u9556?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9559?\f1\par
+\f0\u9553?\f1                                       \tab\tab\tab\tab LICENSE AND AGREEMENT                                               \tab\tab\tab\tab                  \f0\u9553?\f1\par
+\f0\u9567?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9570?\f1\par
+\f0\u9553?\f1                                                                                                                                            \tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    PLEASE READ THIS LICENSE AND AGREEMENT CAREFULLY BEFORE USING THE \cf1\highlight2\b\f2\fs16 TOUR MANAGEMENT SYSTEM SOFTWARE\b0 .\cf0\highlight0\f1\fs20      \tab\tab                  \f0\u9553?\f1\par
+\f0\u9553?\f1    BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS AND            \tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    CONDITIONS OF THIS AGREEMENT.                                                                             \tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                             \tab\tab\tab\tab\tab\tab\tab\tab\tab                  \f0\u9553?\f1\par
+\f0\u9553?\f1    1. GRANT OF LICENSE:                                                                                     \tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                               \tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       The\b  Tour Management System software \b0 is licensed, not sold. Subject to the terms and conditions of       \tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       this Agreement, \b\f2 Sudipta Kumar Das\b0\f1   grants you a \b non-exclusive\b0 , \b non-transferable\b0  license to use the    \tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       software.                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    2. PERMITTED USES:                                                                                        \tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       You may use the software for managing tour operations and related tasks. You may \b install \b0 and use       \tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       the software on a \b single computer\b0  for your \b personal or business use\b0 .                                 \tab\tab\tab\tab\tab   \tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    3. RESTRICTIONS:                                                                                          \tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       - You shall \b not distribute, sublicense, lease, rent,\b0  or otherwise transfer the software or any        \tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1         portion thereof.                                                                                      \tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       - You shall \b not reverse engineer, decompile, disassemble, or create derivative\b0  works based on the      \tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1         software.                                                                                             \tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       - You shall \b not modify, adapt, translate, or make any attempt to circumvent the security\b0  of the        \tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1         software.                                                                                             \tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    4. DISCLAIMER OF WARRANTY:                                                                                \tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       THE SOFTWARE IS PROVIDED "\b AS IS\b0 ," WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY     \tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       APPLICABLE LAW, \b\f2 SUDIPTA KUMAR DAS\b0  \f1 DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT    \tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       LIMITED TO WARRANTIES OF \b MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE\b0 , AND \b NONINFRINGEMENT\b0 .      \tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    5. LIMITATION OF LIABILITY:                                                                               \tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       IN NO EVENT SHALL \b\f2 SUDIPTA KUMAR DAS\b0\f1  BE LIABLE FOR ANY \b SPECIAL, INCIDENTAL, INDIRECT\b0 , OR \b CONSEQUENTIAL\b0\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       DAMAGES WHATSOEVER (\b INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION,\b0  \tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       \b LOSS OF INFORMATION\b0 , OR \b ANY OTHER PECUNIARY LOSS)\b0  ARISING OUT OF THE USE OF OR INABILITY TO USE THE   \tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       SOFTWARE, EVEN IF \b\f2 SUDIPTA KUMAR DAS\b0\f1  HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.             \tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    6. GOVERNING LAW:                                                                                         \tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                               \tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       This Agreement shall be\b  governed by and construed\b0  in accordance with the\b  laws of \f2 Sudipta Kumar Das\b0\f1 .  \tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    7. ENTIRE AGREEMENT:                                                                                      \tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       This Agreement constitutes the\b  entire agreement\b0  between \b you\b0  and \b\f2 Sudipta Kumar Das\b0  \f1 concerning the    \tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       software and supersedes all \b prior or contemporaneous understandings, representations, agreements\b0 , or   \tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1       \b communications\b0 .                                                                                         \tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                              \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ AND AGREE TO   \tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1    BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT.                                                     \tab\tab\tab\tab\tab\tab  \f0\u9553?\f1\par
+\f0\u9553?\f1                                                                                                               \tab\tab\tab\tab\tab\tab\tab\tab                \tab  \f0\u9553?\f1\par
+\f0\u9562?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9552?\u9565?\f3\par
+}
+ [Licence_End]
+[Registry]
+[Variables]
+[SCs]
+Desktop
+Voyager
+<InstallPath>\VOYAGER.exe
+
+
+0
+Startmenu
+Voyager
+<InstallPath>\VOYAGER.exe
+
+
+0
+[IFP_End]
+[Serials]
+[Serials_End]
+[Commands]
