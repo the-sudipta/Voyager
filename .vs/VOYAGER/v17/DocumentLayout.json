@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Voyager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4AED6A-AB55-4362-ABFC-3B6D77418CC1}|VOYAGER\\VOYAGER.csproj|c:\\users\\user\\desktop\\voyager\\voyager\\sqlconnectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4AED6A-AB55-4362-ABFC-3B6D77418CC1}|VOYAGER\\VOYAGER.csproj|solutionrelative:voyager\\sqlconnectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4AED6A-AB55-4362-ABFC-3B6D77418CC1}|VOYAGER\\VOYAGER.csproj|c:\\users\\user\\desktop\\voyager\\voyager\\uc_message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4AED6A-AB55-4362-ABFC-3B6D77418CC1}|VOYAGER\\VOYAGER.csproj|solutionrelative:voyager\\uc_message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4AED6A-AB55-4362-ABFC-3B6D77418CC1}|VOYAGER\\VOYAGER.csproj|C:\\Users\\User\\Desktop\\Voyager\\voyager\\uc_message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A4AED6A-AB55-4362-ABFC-3B6D77418CC1}|VOYAGER\\VOYAGER.csproj|solutionrelative:voyager\\uc_message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQLConnectionClass.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Voyager\\VOYAGER\\SQLConnectionClass.cs",
+              "RelativeDocumentMoniker": "VOYAGER\\SQLConnectionClass.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Voyager\\VOYAGER\\SQLConnectionClass.cs",
+              "RelativeToolTip": "VOYAGER\\SQLConnectionClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T17:47:58.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_Message.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Voyager\\VOYAGER\\UC_Message.cs",
+              "RelativeDocumentMoniker": "VOYAGER\\UC_Message.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Voyager\\VOYAGER\\UC_Message.cs",
+              "RelativeToolTip": "VOYAGER\\UC_Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T17:00:37.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UC_Message.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Voyager\\VOYAGER\\UC_Message.cs",
+              "RelativeDocumentMoniker": "VOYAGER\\UC_Message.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VOYAGER\\VOYAGER\\UC_Message.cs [Design]",
+              "RelativeToolTip": "VOYAGER\\UC_Message.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-02-25T17:00:34.316Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
